@@ -1,0 +1,73 @@
+html {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('../images/bg-desktop.svg');
+    font-family: 'Open Sans';
+}
+
+header {
+    margin: 20px;
+    /* margin-left: 50px; */
+    /* padding: 20px; */
+}
+
+header img {
+    width: 200px;
+}
+
+main {
+    display: flex;
+    padding: 20px 70px;
+    justify-content: center;
+}
+
+main img {
+    height: 400px;
+}
+
+.info {
+    margin: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.info p {
+    margin-top: 30px;
+}
+
+.info button {
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    width: 180px;
+    height: 42px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.info button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    box-shadow: 10px 10px 30px rgba(145, 31, 180, 0.5);
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-right: 110px;
+    margin-top: 20px;
+}
+
+footer a i {
+    font-size: 25px;
+    margin-left: 25px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+footer a i:hover {
+    color: hsl(300, 69%, 71%);
+}
