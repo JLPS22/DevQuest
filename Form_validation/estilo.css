@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style */
+body {
+    font-family: Roboto;
+}
+
+html {
+    background-image: url("img/bg.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-position: top;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.formulario {
+    display: flex;
+}
+
+.formulario .text-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 300px;
+    margin-right: 150px;
+}
+
+.formulario .text-left .titulo {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.formulario .text-left p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario .form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 340px;
+    align-items: center;
+    padding: 20px;
+}
+
+.formulario .form .campo {
+    height: 35.11px;
+    width: 298.01px;
+    border-radius: 5px;
+}
+
+.formulario .form .input {
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.formulario .form .digitado {
+    font-weight: 400;
+}
+
+.formulario .form .mensagem {
+    font-family: Roboto;
+    padding-top: 10px;
+    height: 100px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.formulario .form .obr {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario .form .btn_enviar {
+    cursor: pointer;
+    background-color: #3CCC87;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.btn_error {
+    margin-top: 0px;
+}
+
+.formulario .form .mensagem-erro {
+    font-size: 10px;
+    font-weight: 400;
+    color: red;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.formulario .form .erro {
+    border-color: red;
+}
+
+.formulario .form .err {
+    display: block;
+}
+
+.formulario .form .sucesso {
+    border-color: green;
+}
